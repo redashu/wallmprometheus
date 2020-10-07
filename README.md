@@ -57,3 +57,21 @@ systemctl restart prometheus
 ## starting and enable node exporter
 
 <img src="nodestart.png">
+
+
+# Docker installation on Centos 7.7
+
+## use docs
+
+[docker docs] ('https://docs.docker.com/engine/install/centos/')
+
+## Note : use shell script for doing it faster 
+
+## starting docker 
+
+<img src="docker.png">
+
+## Info about docker compose 
+
+<img src="compose.png">
+
