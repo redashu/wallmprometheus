@@ -50,3 +50,10 @@ systemctl restart prometheus
 
 ```
 
+# Node Exporter 
+
+<img src="node.png">
+
+## starting and enable node exporter
+
+<img src="nodestart.png">
