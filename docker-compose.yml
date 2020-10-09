@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+ promserver: 
+  image: prom/prometheus 
+  container_name: ashuc1
+  volumes:
+   - ./config:/etc/prometheus/
+  command:
+   - "--config.file=/etc/prometheus/prometheus.yml" 
+  ports:
+  - "9090:9090"  
+  restart: always 
